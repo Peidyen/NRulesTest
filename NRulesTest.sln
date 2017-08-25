@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.10
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRulesTest", "NRulesTest.csproj", "{C7180500-27DF-49E2-BD1B-66252CD386A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NRulesTest.Models", "Models\NRulesTest.Models\NRulesTest.Models.csproj", "{31724142-D5E8-4E0C-9613-3C25122EA9D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{C7180500-27DF-49E2-BD1B-66252CD386A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7180500-27DF-49E2-BD1B-66252CD386A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7180500-27DF-49E2-BD1B-66252CD386A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31724142-D5E8-4E0C-9613-3C25122EA9D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31724142-D5E8-4E0C-9613-3C25122EA9D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31724142-D5E8-4E0C-9613-3C25122EA9D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31724142-D5E8-4E0C-9613-3C25122EA9D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

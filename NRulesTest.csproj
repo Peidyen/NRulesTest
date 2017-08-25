@@ -32,6 +32,15 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NRules, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8ad544355a4a2176, processorArchitecture=MSIL">
+      <HintPath>packages\NRules.Runtime.0.7.1\lib\net45\NRules.dll</HintPath>
+    </Reference>
+    <Reference Include="NRules.Fluent, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8ad544355a4a2176, processorArchitecture=MSIL">
+      <HintPath>packages\NRules.Fluent.0.7.1\lib\net45\NRules.Fluent.dll</HintPath>
+    </Reference>
+    <Reference Include="NRules.RuleModel, Version=0.7.1.0, Culture=neutral, PublicKeyToken=8ad544355a4a2176, processorArchitecture=MSIL">
+      <HintPath>packages\NRules.RuleModel.0.7.1\lib\net45\NRules.RuleModel.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +56,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Models\NRulesTest.Models\NRulesTest.Models.csproj">
+      <Project>{31724142-D5E8-4E0C-9613-3C25122EA9D4}</Project>
+      <Name>NRulesTest.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="Rules\NRules.Rules\NRules.Rules.csproj">
+      <Project>{160455AB-A6E8-4AE3-B5ED-BEB7EACA6022}</Project>
+      <Name>NRules.Rules</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
